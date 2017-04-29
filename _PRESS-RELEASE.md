@@ -1,6 +1,6 @@
-# Project Name #
+# Newton API Math Factor #
 
-<!-- 
+<!-- Project Name
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
 
 There is an approach called "working backwards" that is widely used at Amazon. They work backwards from the customer, rather than starting with an idea for a product and trying to bolt customers onto it. While working backwards can be applied to any specific product decision, using this approach is especially important when developing new products or features.
@@ -18,27 +18,38 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  Arithmetic Calculator
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  For those who need a quick way to factor some math equations.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  Need a quick way to solve a math problem when you have more important matters to do?  This calculator will solve many kinds of math problems, from simple solutions with all numbers known to seeing the derivatives of quadratic equations, and even quickly finds tangent paths.  Sine and Arcsine troubles?  Easy as Pi.  Absolute values?  Absolutely.  Logarihmic issues?  Naturally.  Even checks out curves from underneath areas.  Locates all the 0s as well.  So who wants to integrate this solution?
 
 ## Problem ##
   > Describe the problem your product solves.
+  Many people went through algebra. Some went through calculus.  Who even remembers how to do these equations?  Many can't retain how to solve these problems, due to not working on math in this complexity as a daily occurance.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  This is a simple to use calculator for algebraic and calculus problems where all you need to do is select operation type, and then insert the expression you want solved.  Takes no time to display the solution.  If you don't normally use calculus, instead of learning or relearning how to do it just for a single instance, this calculator will be a big aid to your one-upsmanship.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  "When we looked at possible pressing issues in today's society, we decided to go the route of helping people better understand the importance of calculus.  After all, there's a possibility that we all need to be rocket scientists in the near future to survive what's ahead."
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  Step 1: Pick an operation.
+  Step 2: Input your math expression.
+  Step 3: Be excited with how smart you are.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  "As someone who looks at planetary geometry, this calculator has been a real help to simplify my work."
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  By all means, use this calculator to your heart's content.  No limit to how many times you need its use.  Just be satisfied with the simplicity.

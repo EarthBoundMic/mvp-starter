@@ -1,10 +1,17 @@
 angular.module('app')
-.controller('AppCtrl', function(itemsService) {
-  itemsService.getAll((data) => {
-    this.items = data;
-  });
+.controller('AppCtrl', function($scope, $http) {
+  //a.getAll(function(b) {
+    //console.log(b)
+  //})
+  $scope.operation = 'simplify';
+  $scope.expression = "";
+  $scope.result = "";
+  
+
+
 })
 .directive('app', function() {
+  //console.log(this)
   return {
     scope: {},
     restrict: 'E',

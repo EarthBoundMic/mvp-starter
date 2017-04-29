@@ -12,8 +12,9 @@ db.once('open', function() {
 });
 
 var itemSchema = mongoose.Schema({
-  quantity: Number,
-  description: String
+  operation: String,
+  expression: mongoose.Schema.Types.Mixed,
+  result: mongoose.Schema.Types.Mixed
 });
 
 var Item = mongoose.model('Item', itemSchema);
