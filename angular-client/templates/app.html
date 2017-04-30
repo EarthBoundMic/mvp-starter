@@ -1,5 +1,5 @@
 <div>
-  <form>
+  <form ng-submit="submit()">
     <input ng-model="operation" type="radio" value="simplify"> Simplify <br>
     <input ng-model="operation" type="radio" value="factor"> Factor <br>
     <input ng-model="operation" type="radio" value="derive"> Derivative <br>
@@ -17,11 +17,12 @@
     <input ng-model="operation" type="radio" value="log"> Logarithmic <br> <br>
     Insert Expression Here: <br>
     <input ng-model="expression" placeholder="expression here"/>
-    <input type="submit" value="Submit"/> <br> <br>
+    <input type="submit" id="submit" value="Submit"/> <br> <br>
     Operation: ({{operation}}) <br>
     Expression: ({{expression}}) <br>
-    Result: ({{result}})
+    Result: <h1>({{prevExpression}}):({{result}})</h1>
   </form>
+  <result operation="operation" expression="expression" /> 
 </div>
 
 
